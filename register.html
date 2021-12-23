@@ -11,7 +11,7 @@
 
 <body>
     <div class="login_form">
-        <h1 class="heading">Login</h1>
+        <h1 class="heading">Register</h1>
         <form>
             <div class="input">
                 <label for="userName">Username</label><br />
@@ -21,11 +21,17 @@
                 <label for="pass">Password</label><br />
                 <input type="password" name="pass" id="pass" />
             </div>
-            <input type="checkbox" name="" id="" style="margin-left: 8px" /> Remember me
+            <div class="input">
+                <label for="phone">phone</label><br />
+                <input type="text" name="phone" id="phone" />
+            </div>
+            <label for="gender" style="margin-left: 8px">Gender: </label>
+            <input type="radio" name="gender" id="gender" /> Male
+            <input type="radio" name="gender" id="gender" /> Female
             <div class="btn">
                 <button type="submit">Submit</button>
             </div>
-            <a href="register.html">click here to create a account</a>
+            <a href="index.html">Already have account sign in</a>
         </form>
     </div>
 </body>
