@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#bg-img{
+    background-image: url(../image/bg/bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.8;
+}
+#main{
+    width: 100%;
+    height: 69px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+#lt-menu{
+    float: left;
+    width: 15%;
+}
+#lt-menu img{
+    margin-left: 27px;
+    width: 120px;
+    height: 29px;
+    margin-top: 23px;
+}
+#md-menu{
+    width: 75%;
+    height: 3px;
+    margin: auto;
+}
+#md-menu ul{
+    display: inline-block;
+    margin: -8px;
+    margin-left: 238px;
+}
+
+#md-menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    padding: 19px;
+    margin-left: -15px;
+}
+#md-menu ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+}
+#md-menu ul li a:hover{
+    color: blue;
+}
+#rt-menu{
+    float: right;
+    width: 22%;
+    margin: 3px;
+    padding: 13px;
+}
+#rt-menu input{
+    text-transform: capitalize;
+    font-size: 16px;
+    /* font-weight: bold; */
+    text-align: center;
+    border-radius: 8px;
+    padding: 3px;
+}
+#rt-menu button{
+    border-radius: 10px;
+    padding: 5px;
+    padding-right: 21px;
+    text-align: center;
+    margin-left: 5px;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: aquamarine;
+    background-color: black;
+}
+#rt-menu button:hover{
+    background-color: teal;
+    color: wheat;
+    cursor: pointer;
+}
+#header{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 42px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 16%;
+    height: 28px;
+    margin: auto;
+    margin-top: 82px;
+    margin-right: 32rem;
+}
+.contact{
+    width: 16%;
+    margin: auto;
+    margin-top: 36px;
+}
+.namelist{
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 10px;
+}
+.namelist input{
+    padding: 5px;
+    border-radius: 6px;
+    width: 474px;
+}
+.namelist button{
+    width: 474px;
+    padding: 3px;
+    color: aquamarine;
+    background-color: black;
+    font-size: 17px;
+}
+.namelist1{
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 10px;
+}
+.namelist button:hover{
+    background-color: teal;
+    color: wheat;
+    cursor: pointer;
+}
